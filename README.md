@@ -39,7 +39,7 @@ Note: This is the Vite version of the project I had already built with Create Re
 1. **Clone the repository**
    ```bash
    git clone https://github.com/hardikjha/online-library-vite.git
-   cd novelvault
+   cd online-library-vite
    ```
 
 2. **Install dependencies**
