@@ -31,3 +31,43 @@ Note: This is the Vite version of the project I had already built with Create Re
 - **React Router DOM** for navigation
 - **CSS Flexbox/Grid** for layout
 - **Picsum Photos API** for placeholder book covers
+
+
+
+# 🚀 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/hardikjha/online-library-vite.git
+   cd novelvault
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the app in your browser**
+   Visit: **[http://localhost:5173](http://localhost:5173)**
+
+---
+
+**💡 Notes:**
+- Make sure you have **Node.js (v16 or above)** installed.
+- If you’re using a different port, adjust the URL accordingly.
+- For production build:
+  ```bash
+  npm run build
+  npm run preview
+  ```
+
+## Repository Link
+
+[Click Here](https://github.com/hardikjha/online-library-vite)
+
+Made By Hardik Kumar
