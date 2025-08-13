@@ -13,21 +13,11 @@
   background-attachment: fixed;
 }
 
-/* Remove CRA's giant header blocker */
+/* Remove header blocker */
 .App-header {
   background-color: transparent;
   min-height: auto;
   display: block;
   padding: 1rem;
   color: white;
-}
-
-/* Optional link styling */
-.App-link {
-  color: #61dafb;
-  text-decoration: none;
-}
-
-.App-link:hover {
-  text-decoration: underline;
 }

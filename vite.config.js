@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   server: {
-    historyApiFallback: true // Dev server fix for React Router
+    historyApiFallback: true 
   },
   build: {
     rollupOptions: {},
