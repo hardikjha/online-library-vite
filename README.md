@@ -4,6 +4,7 @@ A React-based online library application where users can browse books, view deta
 Built with **Vite**, **React Router**, and **Redux Toolkit**.
 
 Note: This is the Vite version of the project I had already built with Create React App. 
+[CRA Project Repository Link](https://github.com/hardikjha/online-library)
 
 
 ## 🚀 Features
