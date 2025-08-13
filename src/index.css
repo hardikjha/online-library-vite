@@ -202,6 +202,24 @@ p.error {
   background: #0056b3;
 }
 
+.book-details-container{
+ padding: 30px;
+}
+
+.book-details-container p {
+  font-size: 1.1rem;
+  color: whitesmoke;
+}
+
+.back-button{
+  background-color: antiquewhite;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 5px 12px;
+  color: navy;
+  border-radius: 18px;
+  text-decoration: none;
+}
 
 .footer {
   background: linear-gradient(90deg, #333, #555);
@@ -209,5 +227,6 @@ p.error {
   text-align: center;
   padding: 12px 0;
   margin-top: 40px;
+  width: 100%;
   font-size: 0.95rem;
 }
