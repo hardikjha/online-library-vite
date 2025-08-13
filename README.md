@@ -1,12 +1,32 @@
-# React + Vite
+# NovelVault: The Online Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based online library application where users can browse books, view details, and add new books with cover images.  
+Built with **Vite**, **React Router**, and **Redux Toolkit**.
 
-Currently, two official plugins are available:
+Note: This is the Vite version of the project I had already built with Create React App. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- **Home Page** with book categories and featured books
+- **Browse Page** to view all books in a grid layout
+- **Book Details Page** showing description, author, category, and rating
+- **Add Book Page** with validation and random cover image generation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+
+### Home Page
+![Home Page](src/img/onlib.PNG)
+
+### Browse Page
+![Browse Page](src/img/onlib2.PNG)
+
+### Add Book Page
+![Add Book](src/img/onlib3.PNG)
+
+
+## Tech Stack
+- **React** (Vite)
+- **Redux Toolkit** for state management
+- **React Router DOM** for navigation
+- **CSS Flexbox/Grid** for layout
+- **Picsum Photos API** for placeholder book covers
