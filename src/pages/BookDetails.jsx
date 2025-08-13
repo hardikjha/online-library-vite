@@ -3,10 +3,14 @@ import { useSelector } from 'react-redux';
 
 export default function BookDetails() {
   const { id } = useParams();
-  const book = useSelector(state => state.books.find(b => b.id === id));
+
+  // Ensure ID comparison works even if stored as number
+  const book = useSelector(state =>
+    state.books.find(b => String(b.id) === String(id))
+  );
 
   if (!book) {
-    return <p>Book not found</p>;
+    return <p style={{ padding: '20px' }}>Book not found</p>;
   }
 
   return (

@@ -9,7 +9,9 @@ export default function Browse() {
   const [query, setQuery] = useState('');
 
   const filtered = books.filter(book => {
-    const matchesCategory = category ? book.category === category : true;
+    const matchesCategory = category
+      ? book.category?.toLowerCase() === category.toLowerCase()
+      : true;
     const matchesQuery =
       book.title.toLowerCase().includes(query.toLowerCase()) ||
       book.author.toLowerCase().includes(query.toLowerCase());

@@ -18,7 +18,7 @@ export default function Home() {
       <ul>
         {categories.map(cat => (
           <li key={cat}>
-            <Link to={`/books/${cat}`}>{cat}</Link>
+            <Link to={`/browse/${cat}`}>{cat}</Link>
           </li>
         ))}
       </ul>

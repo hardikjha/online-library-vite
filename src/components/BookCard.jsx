@@ -18,7 +18,7 @@ export default function BookCard({ book }) {
         <p><strong>Author:</strong> {book.author}</p>
         <p><strong>Category:</strong> {book.category}</p>
         <p><strong>Rating:</strong> {book.rating} / 5</p>
-        <Link to={`/book/${book.id}`} className="btn">View Details</Link>
+        <Link to={`/books/${book.id}`} className="btn">View Details</Link>
       </div>
     </div>
   );
